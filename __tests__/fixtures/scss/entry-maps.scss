@@ -1,0 +1,8 @@
+@use "sass:map";
+@use "token:colors" as c;
+@use "token:spacing" as s;
+
+.btn {
+  color: map.get(c.$color, primary);
+  padding: map.get(s.$spacing, sm) map.get(s.$spacing, md);
+}

@@ -1,0 +1,7 @@
+@use "token:colors" as c;
+@use "token:spacing" as s;
+
+.btn {
+  color: c.$color-primary;
+  padding: s.$spacing-sm s.$spacing-md;
+}

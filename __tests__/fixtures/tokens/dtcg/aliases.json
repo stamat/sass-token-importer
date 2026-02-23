@@ -1,0 +1,31 @@
+{
+  "color": {
+    "$type": "color",
+    "base": {
+      "blue": {
+        "$value": "#0066cc"
+      },
+      "red": {
+        "$value": "#cc0000"
+      }
+    },
+    "primary": {
+      "$value": "{color.base.blue}"
+    },
+    "danger": {
+      "$value": "{color.base.red}"
+    },
+    "action": {
+      "$value": "{color.primary}"
+    }
+  },
+  "spacing": {
+    "$type": "dimension",
+    "base": {
+      "$value": "8px"
+    },
+    "double": {
+      "$value": "{spacing.base}"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "name": "sass-token-importer",
+  "description": "A custom Importer for Dart Sass that imports JSON design tokens (W3C DTCG & Style Dictionary) and converts them to SCSS variables or maps at compile time.",
+  "version": "1.0.0",
+  "license": "MIT",
+  "type": "module",
+  "main": "sass-token-importer.js",
+  "types": "sass-token-importer.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stamat/sass-token-importer.git"
+  },
+  "files": [
+    "sass-token-importer.js",
+    "sass-token-importer.d.ts"
+  ],
+  "author": "Stamat <@stamat> (http://stamat.info)",
+  "homepage": "https://github.com/stamat/sass-token-importer",
+  "private": false,
+  "keywords": [
+    "sass",
+    "importer",
+    "dart-sass",
+    "design-tokens",
+    "json",
+    "dtcg",
+    "style-dictionary",
+    "scss",
+    "tokens"
+  ],
+  "scripts": {
+    "lint": "eslint ./sass-token-importer.js",
+    "test": "NODE_OPTIONS='--experimental-vm-modules' jest"
+  },
+  "dependencies": {
+    "book-of-spells": "^1.1.1"
+  },
+  "peerDependencies": {
+    "sass": "^1.45.0"
+  },
+  "devDependencies": {
+    "@jest/globals": "^30.2.0",
+    "eslint": "^9.39.3",
+    "jest": "^30.2.0",
+    "neostandard": "^0.12.2",
+    "sass": "^1.97.3"
+  },
+  "overrides": {
+    "minimatch": ">=10.2.1"
+  }
+}

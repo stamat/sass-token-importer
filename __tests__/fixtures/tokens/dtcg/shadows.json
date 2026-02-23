@@ -1,0 +1,33 @@
+{
+  "shadow": {
+    "$type": "shadow",
+    "sm": {
+      "$value": {
+        "color": "#00000033",
+        "offsetX": "0px",
+        "offsetY": "1px",
+        "blur": "2px",
+        "spread": "0px"
+      }
+    },
+    "lg": {
+      "$value": {
+        "color": "#00000066",
+        "offsetX": "0px",
+        "offsetY": "4px",
+        "blur": "8px",
+        "spread": "0px"
+      }
+    }
+  },
+  "border": {
+    "$type": "border",
+    "thin": {
+      "$value": {
+        "color": "#cccccc",
+        "width": "1px",
+        "style": "solid"
+      }
+    }
+  }
+}
