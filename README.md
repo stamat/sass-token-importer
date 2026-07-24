@@ -1,4 +1,4 @@
-# sass-token-importer
+# sass-token-importer [![npm version](https://img.shields.io/npm/v/sass-token-importer)](https://www.npmjs.com/package/sass-token-importer)
 
 A custom [`Importer`](https://sass-lang.com/documentation/js-api/interfaces/importer/) for Dart Sass that imports JSON design tokens and converts them to SCSS variables or maps at compile time.
 
